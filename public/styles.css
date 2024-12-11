@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 50px); /* Ajustar según la capacidad */
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #444;
+    cursor: pointer;
+}
+
+.seat.available {
+    background-color: #7cfc00; /* Verde = Disponible */
+}
+
+.seat.occupied {
+    background-color: #ff6347; /* Rojo = Ocupado */
+    cursor: not-allowed;
+}
+
+.seat.selected {
+    background-color: #87cefa; /* Azul = Seleccionado */
+}
