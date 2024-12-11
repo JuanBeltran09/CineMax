@@ -1,2 +1,3 @@
-npm install
-Ejecución: http://localhost:5000/
+#  npm install
+# node app.js
+# Ejecución: http://localhost:5000/
